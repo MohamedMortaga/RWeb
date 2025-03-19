@@ -6,6 +6,9 @@ height:min-content;
     margin-right: auto;
     margin-left: auto;
 }
+.imm:hover{
+    transform: translateY(-7px);
+}
 .fs1{
     background-color: aliceblue;
 }
@@ -31,10 +34,14 @@ height:min-content;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Optional hover effect for interactivity */
+
 .pa:hover {
-    transform: translateY(-3px); /* Slight lift on hover */
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+    transform: translateY(-7px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); 
+}
+.fs1:hover {
+ 
+    box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.15); 
 }
   @media screen and (max-width: 600px) {
     .pa{
