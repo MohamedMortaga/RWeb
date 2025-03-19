@@ -1,8 +1,7 @@
 import React from 'react'
-
 export default function Home() {
   return <>
-    Home
+    <h1 className='text-center text-white'>******Home******</h1>
   </>
   
 }

@@ -1,8 +1,13 @@
 import React from 'react'
-
 export default function Footer() {
   return <>
-    Footer
+     <footer className='text-white text-center bg-dark p-1  '>
+      <div className='border-top rounded'>
+        <h1 className="text-center lg">Footer</h1>
+        <p>Copyright © 2025 Designed by Mohamed Mortaga & Andrew Melad.All rights reserved.</p>
+       
+      </div>
+    </footer>
   </>
   
 }

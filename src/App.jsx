@@ -7,7 +7,7 @@ export default function App() {
     <div className="bg-dark">
       <Navbar/>
       <br/>
-      <Home/>
+      <Home className="bg-dark pt-5"/>
       <br/>
       <Footer/>
       Hi
