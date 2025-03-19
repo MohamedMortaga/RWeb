@@ -1,0 +1,66 @@
+.imgabout{
+display: flex;
+height:min-content;
+}
+.imm{
+    margin-right: auto;
+    margin-left: auto;
+}
+.fs1{
+    background-color: aliceblue;
+}
+.borderr{
+    border: 2px solid #597492;
+    border-radius: 8px;
+}
+.pa {
+    display: flex;
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: 'Inter', 'Segoe UI', 'Roboto', system-ui, sans-serif;
+    color: #1a1a1a; 
+    margin: 30px; 
+    padding: 2.5rem;
+    background: #ffffff; 
+    border: none; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    text-align: justify; 
+    max-width: 600px; 
+    margin-right: 5%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Optional hover effect for interactivity */
+.pa:hover {
+    transform: translateY(-3px); /* Slight lift on hover */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+  @media screen and (max-width: 600px) {
+    .pa{
+        margin: 10px;
+        padding: 10px;
+        font-size: 10px;
+        margin-right: 2% !important;
+      
+    }
+}
+@media screen and (min-width: 600px) and ( max-width: 900px) {
+    .pa{
+        margin: 10px;
+        padding: 10px;
+        font-size: 12px;
+        margin-right: 2% !important;
+        padding: 3%;
+    }
+    
+}
+@media screen and (min-width: 900px) and ( max-width: 1300px) {
+    .pa{
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+        margin-right: 2% !important;
+    }
+    
+}

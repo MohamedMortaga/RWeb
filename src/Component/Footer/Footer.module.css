@@ -1,10 +1,10 @@
-.navb{
+.foot{
     background: linear-gradient(
-        to left,
+        to right,
         rgba(83, 151, 235, 0.455) 10%,
         rgb(212, 234, 241) 90%
       );
-    border-bottom: 2px solid #597492;
+    border-top: 2px solid #597492;
     border-radius: 8px;
 
 }
