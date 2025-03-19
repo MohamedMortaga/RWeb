@@ -1,9 +1,10 @@
 import React from 'react'
 import style from './Navbar.module.css'
+import 'animate.css';
 export default function Navbar() {
   return <>
   
-  <nav className={`navbar navbar-expand-lg navbar-light ${style.navb}`}>
+  <nav className={` animate__animated  animate__fadeInDown navbar navbar-expand-lg navbar-light ${style.navb}`}>
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Navbar</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
