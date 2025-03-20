@@ -2,6 +2,7 @@ import React from 'react';
 import { FaHome } from 'react-icons/fa';
 import style from './Home.module.css';
 import homeImage from '../../Images/Home.jpg'; 
+import 'animate.css';
 
 export default function Home() {
   return <>
@@ -22,7 +23,7 @@ export default function Home() {
         >
           <article>
             <h1 className={`${style.htitle} text-center`}>We are a </h1>
-            <p className={`${style.ptitle} text-center pt-3`}>
+            <p className={`${style.ptitle} text-center pt-3 animate__animated animate__fadeInDown`}>
               Bachelor of Computer Science | Modern Sciences and Arts University (MSA) | Greenwich University.
             </p>
           </article>
