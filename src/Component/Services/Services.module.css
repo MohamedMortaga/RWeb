@@ -6,3 +6,9 @@
     border: 2px solid #597492;
     border-radius: 8px;
   }
+  .line2{
+    border-bottom: 1px solid #b0c7e2;
+    border-radius: 8px;
+    width: 300px;
+  
+  }

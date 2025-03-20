@@ -30,12 +30,12 @@ export default function Home() {
         </div>
       </fieldset>
     </section>
-    <About/>
-    <div className={`${style.line} my-5`}></div>
+    <About />
+    <div className={`${style.line}  m-auto my-2`}></div>
     <Services/>
-    <div className={`${style.line} my-5`}></div>
+    <div className={`${style.line}  m-auto  my-2`}></div>
     <Team/>
-    <div className={`${style.line} my-5`}></div>
+    <div className={`${style.line} m-auto  my-2`}></div>
     <Contact/>
   </>
 }

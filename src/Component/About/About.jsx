@@ -6,14 +6,15 @@ import { MdInfo } from "react-icons/md";
 export default function About() {
   return (
     <>
-      <section className="text-dark p-5 mt-5">
+      <section className="text-dark p-5 mt-5 m-4">
         <fieldset
           className={` animate__animated  animate__pulse ${style.fs1} ${style.borderr} p-3  m-5`}
         >
           <h2>
             <MdInfo style={{ verticalAlign: "middle", marginRight: "10px" }} />
-            About:
+            About
           </h2>
+          <div className={`${style.line2} mb-3`}></div>
           <div className="container">
             <div className="row">
              <div className="col-md-6 ">

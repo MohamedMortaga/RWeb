@@ -27,9 +27,18 @@ height:min-content;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
     text-align: justify; 
     max-width: 600px; 
+    animation-fill-mode: none;
+    position: relative;
+    min-height: 100px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.imm{
+    animation-fill-mode: none;
+}
+.imm:hover{
+    transform: translateY(-7px);
 
+}
 
 .pa:hover {
     transform: translateY(-7px);
@@ -61,4 +70,10 @@ height:min-content;
         font-size: 18px;
     } 
     
-}  
+} 
+.line2{
+    border-bottom: 1px solid #b0c7e2;
+    border-radius: 8px;
+    width: 300px;
+  
+  } 

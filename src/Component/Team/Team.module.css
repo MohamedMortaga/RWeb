@@ -7,12 +7,42 @@
   border-radius: 8px;
 }
 .fs1:hover {
-  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.15);
+ 
+  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.15); 
 }
-.aa:hover {
-  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.15) !important;
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.carddetails {
+  position: absolute;
+  bottom: 100%; 
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: bottom 0.6s ease;
 }
 
-.dd {
-  font-size: 1.2rem;
+.card:hover .carddetails {
+  bottom: -3%;
+}  
+.tt{
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: justify;
+}
+.line2{
+  border-bottom: 1px solid #b0c7e2;
+  border-radius: 8px;
+  width: 300px;
+
 }
