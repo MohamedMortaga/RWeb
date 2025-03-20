@@ -51,6 +51,7 @@ height:min-content;
         padding: 10px;
         font-size: 10px;
         margin-right: 2% !important;
+        width: 100% !important;
       
     }
 }

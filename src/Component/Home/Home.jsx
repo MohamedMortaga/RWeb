@@ -22,7 +22,7 @@ export default function Home() {
           }}
         >
           <article>
-            <h1 className={`${style.htitle} text-center`}>We are a </h1>
+            <h1 className={`${style.htitle} text-center`}>We are </h1>
             <p className={`${style.ptitle} text-center pt-3 animate__animated animate__fadeInDown`}>
               Bachelor of Computer Science | Modern Sciences and Arts University (MSA) | Greenwich University.
             </p>
