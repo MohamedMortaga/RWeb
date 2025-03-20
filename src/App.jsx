@@ -5,6 +5,8 @@ import Layout from './Component/Layout/Layout';
 import Home from './Component/Home/Home';
 import About from './Component/About/About';
 import Services from './Component/Services/Services';
+import Team from './Component/Team/Team';
+import Contact from './Component/Contact/Contact';
 export default function App() {
 
 let routers = createBrowserRouter([
@@ -12,6 +14,8 @@ let routers = createBrowserRouter([
     {index: true, element: <Home/>},
     {path:"about", element: <About/>},
     {path:"services", element: <Services/>},
+    {path:"team", element: <Team/>},
+    {path:"contact", element: <Contact/>},
   ]},
 ]);
 
