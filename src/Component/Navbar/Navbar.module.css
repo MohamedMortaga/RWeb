@@ -14,10 +14,22 @@
 
 }
 
+.ww{
+  width: 15% !important;
 
-@media screen and (min-width: 900px) and ( max-width: 1300px) {
+  margin-left: 10px !important;
+}
+@media screen and (max-width: 999px){
   .vv{
      color: black;
   }
+  .navb{
+    background: linear-gradient(
+        to right,
+        rgba(32, 68, 113, 0.455) 10%,
+        rgb(212, 234, 241) 90%
+      ) !important;
+
+}
   
 }

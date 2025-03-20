@@ -4,7 +4,7 @@ import { RiContactsFill } from "react-icons/ri";
 
 export default function Contact() {
   return<>
-   <section className='vh-100 overflow-auto'>
+   <section className='vh-100'>
     <fieldset className={`${style.fs1} ${style.borderr} p-3`}>
             <h2 className="text-dark">
               <RiContactsFill style={{ verticalAlign: 'middle', marginRight: '10px' }} /> Contact US
