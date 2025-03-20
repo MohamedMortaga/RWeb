@@ -2,10 +2,6 @@
 display: flex;
 height:min-content;
 }
-.imm{
-    margin-right: auto;
-    margin-left: auto;
-}
 .imm:hover{
     transform: translateY(-7px);
 }
@@ -24,7 +20,6 @@ height:min-content;
     line-height: 1.8;
     font-family: 'Inter', 'Segoe UI', 'Roboto', system-ui, sans-serif;
     color: #1a1a1a; 
-    margin: 30px; 
     padding: 2.5rem;
     background: #ffffff; 
     border: none; 
@@ -32,7 +27,6 @@ height:min-content;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
     text-align: justify; 
     max-width: 600px; 
-    margin-right: 5%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -47,30 +41,24 @@ height:min-content;
 }
   @media screen and (max-width: 600px) {
     .pa{
-        margin: 10px;
         padding: 10px;
         font-size: 10px;
-        margin-right: 2% !important;
-        width: 100% !important;
       
     }
+
 }
 @media screen and (min-width: 600px) and ( max-width: 900px) {
     .pa{
-        margin: 10px;
         padding: 10px;
         font-size: 12px;
-        margin-right: 2% !important;
-        padding: 3%;
+   
     }
-    
+
 }
 @media screen and (min-width: 900px) and ( max-width: 1300px) {
     .pa{
-        margin: 10px;
         padding: 10px;
         font-size: 18px;
-        margin-right: 2% !important;
-    }
+    } 
     
-}
+}  
