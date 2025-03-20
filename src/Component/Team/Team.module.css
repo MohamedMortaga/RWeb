@@ -7,9 +7,12 @@
   border-radius: 8px;
 }
 .fs1:hover {
- 
-  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.15); 
+  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.15);
 }
 .aa:hover {
-  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.15) !important; 
+  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.15) !important;
+}
+
+.dd {
+  font-size: 1.2rem;
 }

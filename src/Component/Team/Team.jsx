@@ -37,9 +37,9 @@ export default function Team() {
                     src={item.photo} 
                     alt={item.name} 
                     className={`img-fluid w-100 rounded rounded-4  border border-3 border-primary`}
-                    style={{ height: '450px', objectFit: 'cover' }}
+                    style={{ objectFit: 'cover' }}
                   />
-                  <h3 className='text-center mt-1'>{item.name}</h3>
+                  <h3 className={`${style.dd} text-center mt-1`}>{item.name}</h3>
                   <p className='text-center text-primary'>{item.yearsInOffice}</p>
                 </div>
               </div>
