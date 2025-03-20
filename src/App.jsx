@@ -1,22 +1,22 @@
-import Home from './Component/Home/Home';
-import Footer from './Component/Footer/Footer';
-import Navbar from './Component/Navbar/Navbar';
-import About from './Component/About/About';
+import React from 'react'
 import style from './App.module.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Layout from './Component/Layout/Layout';
+import Home from './Component/Home/Home';
+import About from './Component/About/About';
+import Services from './Component/Services/Services';
 export default function App() {
+
+let routers = createBrowserRouter([
+  {path:"", element: <Layout/>, children:[
+    {index: true, element: <Home/>},
+    {path:"about", element: <About/>},
+    {path:"services", element: <Services/>},
+  ]},
+]);
+
   return <>
-    <div className={`${style.bg}bg-light`}>
-      <Navbar/>
-      <br/>
-      <div className="container-fluid px-5 ">
-      <Home className="bg-light"/>
-        <br/>
-        <About/>
-        <br/>
-      </div>
-      
-      <Footer/>
-    </div>
+    <RouterProvider router={routers} />
   </>
   
 }

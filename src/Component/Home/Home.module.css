@@ -1,7 +1,156 @@
-.fs1{
-    background-color: aliceblue;
+.fs1 {
+  background-color: aliceblue;
 }
-.borderr{
-    border: 2px solid #597492;
-    border-radius: 8px;
+
+.borderr {
+  border: 2px solid #597492;
+  border-radius: 8px;
+}
+
+.caption {
+  width: 100%;
+  padding: 20px;
+  color: rgb(221, 218, 218);
+}
+
+.htitle {
+  font-size: 3.5rem;
+}
+
+.htitle::after {
+  content: "|";
+  animation: typing 10s infinite;
+  color: #3b679c;
+}
+
+@keyframes typing {
+  0% {
+    content: "|";
+  }
+  2% {
+    content: "F|";
+  }
+  4% {
+    content: "Fu|";
+  }
+  6% {
+    content: "Ful|";
+  }
+  8% {
+    content: "Full|";
+  }
+  10% {
+    content: "Full-|";
+  }
+  12% {
+    content: "Full-S|";
+  }
+  14% {
+    content: "Full-St|";
+  }
+  16% {
+    content: "Full-Sta|";
+  }
+  18% {
+    content: "Full-Stac|";
+  }
+  20% {
+    content: "Full-Stack|";
+  }
+  22% {
+    content: "Full-Stack |";
+  }
+  24% {
+    content: "Full-Stack D|";
+  }
+  26% {
+    content: "Full-Stack De|";
+  }
+  28% {
+    content: "Full-Stack Dev|";
+  }
+  30% {
+    content: "Full-Stack Deve|";
+  }
+  32% {
+    content: "Full-Stack Devel|";
+  }
+  34% {
+    content: "Full-Stack Develo|";
+  }
+  36% {
+    content: "Full-Stack Develop|";
+  }
+  38% {
+    content: "Full-Stack Develope|";
+  }
+  40% {
+    content: "Full-Stack Developer|";
+  }
+  42% {
+    content: "Full-Stack Develope|";
+  }
+  44% {
+    content: "Full-Stack Develop|";
+  }
+  46% {
+    content: "Full-Stack Develo|";
+  }
+  48% {
+    content: "Full-Stack Devel|";
+  }
+  50% {
+    content: "Full-Stack Deve|";
+  }
+  52% {
+    content: "Full-Stack Dev|";
+  }
+  54% {
+    content: "Full-Stack De|";
+  }
+  56% {
+    content: "Full-Stack D|";
+  }
+  58% {
+    content: "Full-Stack |";
+  }
+  60% {
+    content: "Full-Stack|";
+  }
+  62% {
+    content: "Full-Stac|";
+  }
+  64% {
+    content: "Full-Sta|";
+  }
+  66% {
+    content: "Full-St|";
+  }
+  68% {
+    content: "Full-S|";
+  }
+  70% {
+    content: "Full-|";
+  }
+  72% {
+    content: "Full|";
+  }
+  74% {
+    content: "Ful|";
+  }
+  76% {
+    content: "Fu|";
+  }
+  78% {
+    content: "F|";
+  }
+  100% {
+    content: "|";
+  }
+}
+
+.ptitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.75rem;
 }

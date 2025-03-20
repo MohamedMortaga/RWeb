@@ -2,7 +2,7 @@ import React from 'react'
 import style from './About.module.css'
 import img1 from '../../Images/3.png'
 import 'animate.css';
-import { MdStar, MdInfo, MdContactMail } from 'react-icons/md';
+import { MdInfo } from 'react-icons/md';
 export default function About() {
   return <>
     <section className='text-dark'>
