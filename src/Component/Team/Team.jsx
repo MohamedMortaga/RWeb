@@ -29,6 +29,7 @@ export default function Team() {
               {team.map((item) =><div className="col-md-3" key={item.id}>
                 <img src={item.photo} alt={item.name} className='img-fluid w-100 rounded rounded-4 border border-3 border-primary mt-2' style={{ height: '450px', objectFit: 'cover' }} />
                 <h3 className='text-center mt-1'>{item.name}</h3>
+                <p className='text-center text-primary'>{item.yearsInOffice}</p>
                 </div>)}
             </div>
           </div>
