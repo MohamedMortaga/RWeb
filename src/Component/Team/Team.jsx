@@ -4,7 +4,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 
 export default function Team() {
   return <>
-  <section>
+  <section className='vh-100'>
   <fieldset className={`${style.fs1} ${style.borderr} p-3`}>
           <h2 className="text-dark">
             <FaPeopleGroup style={{ verticalAlign: 'middle', marginRight: '10px' }} /> Our Team

@@ -5,7 +5,7 @@ import 'animate.css';
 import { MdInfo } from 'react-icons/md';
 export default function About() {
   return <>
-    <section className='text-dark'>
+    <section className='text-dark vh-100'>
         <fieldset className={` animate__animated  animate__pulse ${style.fs1} ${style.borderr} p-3`}>
             <h2>
             <MdInfo style={{ verticalAlign: 'middle', marginRight: '10px' }} />
