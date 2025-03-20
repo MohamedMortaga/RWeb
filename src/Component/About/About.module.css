@@ -12,6 +12,7 @@ height:min-content;
 .fs1{
     background-color: aliceblue;
     overflow-x: hidden !important;
+    margin-bottom: 1%;
 }
 .borderr{
     border: 2px solid #597492;

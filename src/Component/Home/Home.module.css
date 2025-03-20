@@ -1,10 +1,12 @@
 .fs1 {
   background-color: aliceblue;
+  margin-bottom: 1%;
 }
 
 .borderr {
-  border: 2px solid #597492;
+  border-bottom: 2px solid #597492;
   border-radius: 8px;
+
 }
 
 .caption {

@@ -3,14 +3,14 @@ import { FaHome } from 'react-icons/fa';
 import style from './Home.module.css';
 import homeImage from '../../Images/Home.jpg'; 
 import 'animate.css';
+import About from '../About/About';
+import Services from '../Services/Services';
+import Team from '../Team/Team';
 
 export default function Home() {
   return <>
     <section>
-      <fieldset className={`${style.fs1} ${style.borderr} p-3`}>
-        <h2 className="text-dark">
-          <FaHome style={{ verticalAlign: 'middle', marginRight: '10px' }} /> Home
-        </h2>
+      <fieldset className={`${style.fs1 }`}>
 
         <div
           className={`${style.caption} d-flex justify-content-center align-items-center text-center flex-column 100vh`}
@@ -30,5 +30,9 @@ export default function Home() {
         </div>
       </fieldset>
     </section>
+    <About/>
+    <Services/>
+    <Team/>
+
   </>
 }
