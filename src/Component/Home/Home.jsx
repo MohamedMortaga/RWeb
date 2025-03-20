@@ -31,8 +31,11 @@ export default function Home() {
       </fieldset>
     </section>
     <About/>
+    <div className={`${style.line} my-5`}></div>
     <Services/>
+    <div className={`${style.line} my-5`}></div>
     <Team/>
+    <div className={`${style.line} my-5`}></div>
     <Contact/>
   </>
 }

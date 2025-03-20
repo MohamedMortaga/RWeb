@@ -19,14 +19,14 @@
 
   margin-left: 10px !important;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 999px){
   .vv{
      color: black;
   }
   .navb{
     background: linear-gradient(
         to right,
-        rgba(12, 82, 168, 0.455) 10%,
+        rgba(32, 68, 113, 0.455) 10%,
         rgb(212, 234, 241) 90%
       ) !important;
 
