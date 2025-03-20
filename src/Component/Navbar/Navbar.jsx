@@ -6,7 +6,7 @@ import 'animate.css';
 export default function Navbar() {
   return (
     <>
-      <nav className={`navbar navbar-expand-lg navbar-dark bg-light fixed-top animate__animated animate__fadeInDown ${style.navb}`}>
+      <nav className={`navbar navbar-expand-lg navbar-dark bg-dark animate__animated animate__fadeInDown ${style.navb}`}>
         <div className="container-fluid">
           <Link className="navbar-brand text-dark animate__animated animate__shakeX animate__delay-1s" to="">
             Navbar
@@ -23,7 +23,7 @@ export default function Navbar() {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active animate__animated animate__fadeInLeft animate__delay-2s" to="">Home</Link>
               </li>
