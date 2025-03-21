@@ -1,14 +1,29 @@
 .fs1 {
-    background-color: aliceblue;
-  }
-  
-  .borderr {
-    border: 2px solid #597492;
-    border-radius: 8px;
-  }
-  .line2{
-    border-bottom: 1px solid #b0c7e2;
-    border-radius: 8px;
-    width: 300px;
-  
-  }
+  background-color: aliceblue;
+}
+
+.borderr {
+  border: 2px solid #597492;
+  border-radius: 8px;
+}
+
+.line2 {
+  border-bottom: 1px solid #b0c7e2;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.slider-image {
+  object-fit: cover;
+  max-height: 500px;
+  border-radius: 10px;
+}
+
+.carousel-indicators button {
+  background-color: #597492;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
