@@ -22,8 +22,8 @@
 .bg:hover{
   box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.15);
   animation-fill-mode: none;
-  transform: translateY(-5px);
-  transition: all 0.3s ease; 
+  transform: translateY(-10px);
+  transition: all 0.6s ease; 
 
 }
 .ww{
