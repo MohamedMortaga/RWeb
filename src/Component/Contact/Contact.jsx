@@ -82,7 +82,7 @@ export default function Contact() {
         </div>
 
 
-        <fieldset className={`${style.fs1} ${style.borderr} p-3 animate__animated animate__fadeInBottomLeft delay-1s`}> 
+        <fieldset className={`${style.fs1} ${style.borderr} p-3 animate__animated animate__fadeInBottomLeft delay-1s  ${style.mm}`}> 
         <div className="container">
           <div className="row">
             <div className="col-md-6">

@@ -11,18 +11,18 @@ const images = [img1, img2, img3];
 
 export default function Services() {
   return <>
-    <section className="p-5 m-4">
-      <fieldset className={`${style.fs1} ${style.borderr} p-3 m-5`}>
+    <section className="p-5 m-4 ">
+      <fieldset className={`${style.fs1} ${style.borderr} p-3 m-5 animate__animated animate__fadeInBottomLeft`}>
         <h2 className="text-dark">
           <FaCogs style={{ verticalAlign: 'middle', marginRight: '10px' }} /> Our Services
         </h2>
         <div className={`${style.line2} mb-3`}></div>
 
         
-        <div id="serviceCarousel" className="carousel slide" data-bs-ride="carousel">
+        <div id="serviceCarousel" className="carousel slide text-bg-dark " data-bs-ride="carousel">
           
           
-          <div className="carousel-indicators">
+          <div className="carousel-indicators text-bg-dark ">
             {images.map((_, index) => (
               <button
                 key={index}
@@ -40,24 +40,27 @@ export default function Services() {
           <div className="carousel-inner">
             {images.map((img, index) => (
               <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
+              <h2 className='pt-5 text-center'>Project {index + 1}</h2>
                 <img 
                   src={img} 
-                  className="d-block w-100 img-fluid slider-image" 
+                  className="d-block mg-fluid slider-image w-75 m-auto rounded rounded-3 pt-5" 
                   alt={`Service ${index + 1}`} 
                   style={{ objectFit: "cover", maxHeight: "500px" }} // Maintain aspect ratio
                 />
+              
+                <h4 className='p-5'>Description of Project {index + 1}</h4>
               </div>
             ))}
           </div>
 
           
-          <button className="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
+          <button className="carousel-control-prev " type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon  text-bg-dark rounded rounded-circle" aria-hidden="true"></span>
+            <span className="visually-hidden  text-bg-dark">Previous</span>
           </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
+          <button className="carousel-control-next " type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+            <span className="carousel-control-next-icon  text-bg-dark  rounded rounded-circle" aria-hidden="true"></span>
+            <span className="visually-hidden  text-bg-dark">Next</span>
           </button>
         </div>
       </fieldset>

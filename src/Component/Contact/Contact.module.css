@@ -3,6 +3,7 @@
 }
 .fs1:hover{
   box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.15); 
+  animation-fill-mode: none;
 }
 .borderr {
   border: 2px solid #597492;
@@ -20,8 +21,10 @@
 }
 .bg:hover{
   box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.15);
+  animation-fill-mode: none;
   transform: translateY(-5px);
   transition: all 0.3s ease; 
+
 }
 .ww{
   width: 20% !important;
@@ -30,5 +33,12 @@
   border-bottom: 1px solid #b0c7e2;
   border-radius: 8px;
   width: 300px;
+
+}
+@media screen and (max-width: 999px){
+  .mm{
+    font-size: small !important;
+  }
+  
 
 }
